@@ -1,6 +1,6 @@
 # NFT minting with Python & Solidity
 
-## Mint ERC721 token to your choice of EVM compatible chain
+## Mint ERC721 token to any EVM compatible chain
 
 ### This project is implemented using Python and uses Brownie framework to support Solidity smart contract programming. 
 
@@ -10,8 +10,8 @@
 ### Required Steps to run the example:
 
 - Create .env file with Keys in below format:
-    PRIVATE_KEY = 0x<Copy private key of your WALLET Address>
-    WEB3_INFURA_PROJECT_ID = <Copy Project ID from Infura Testnet of your choice. Provide the network name in brownie-config.yaml>
+    <br>PRIVATE_KEY = 0x<Copy private key of your WALLET Address>
+    <br>WEB3_INFURA_PROJECT_ID = <Copy Project ID from Infura Testnet of your choice. Provide the network name in brownie-config.yaml>
 - Change path to Project root directory and Run below command to install brownie
     pip install brownie
 - Once brownie is successfully installed, run below command to install dependency packages and compile Solidity .sol files
